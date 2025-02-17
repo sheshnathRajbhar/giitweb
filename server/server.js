@@ -17,7 +17,7 @@ connectCloudinary();
 
 // Middleware
 app.use(cors({
-    origin: ["hhttps://giitweb.onrender.com", "http://localhost:5174"],
+    origin: ["https://giitweb.onrender.com", "https://giitweb-admin.onrender.com"],
 }));
 
 app.get("/",(req, res)=>{
