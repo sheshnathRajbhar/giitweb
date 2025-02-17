@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="md:hidden bg-blue-800 py-4 flex flex-col items-center gap-4">
           <Link to="/" className="text-white text-lg" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link to="/about" className="text-white text-lg" onClick={() => setMenuOpen(false)}>About</Link>
-          <Link to="/courses-list" className="text-white text-lg" onClick={() => setMenuOpen(false)}>Courses</Link>
+          <Link to="/course-list" className="text-white text-lg" onClick={() => setMenuOpen(false)}>Courses</Link>
           <Link to="/media" className="text-white text-lg" onClick={() => setMenuOpen(false)}>Media</Link>
           <Link to="/contact" className="text-white text-lg" onClick={() => setMenuOpen(false)}>Contact</Link>
         </div>
