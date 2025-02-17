@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+.news-marquee {
+  width: 100%;
+  height: 200px; /* Set the height as per your content */
+  overflow: hidden;
+  position: relative;
+}
+
+.news-marquee h2,
+.news-marquee p {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  animation: scrollUp 10s linear infinite;
+}
+
+.news-marquee h2 {
+  font-size: 1.5rem; /* Adjust the size as per your design */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* Small text size */
+}
+
+@keyframes scrollUp {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -100%;
+  }
+}
