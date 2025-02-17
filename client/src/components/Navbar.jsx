@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to="/course-list" className="text-white font-medium uppercase">Courses</Link>
           <Link to="/media" className="text-white font-medium uppercase">Gallery</Link>
           <Link to="/contact" className="text-white font-medium uppercase">Contact</Link>
-          <Link to={import.meta.env.VITE_BACKEND_URL+'/admin'} className="text-white font-medium uppercase">Admin Login</Link>
+          <Link to="https://giitweb-admin.onrender.com" className="text-white font-medium uppercase">Admin Login</Link>
          
         </div>
 
